@@ -5,7 +5,7 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+load_dotenv(".env")
 
 app = FastAPI(title="GroceryApp AI Backend")
 
